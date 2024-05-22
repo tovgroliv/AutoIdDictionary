@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoIdDictionary.Lib", "AutoIdDictionary.Lib\AutoIdDictionary.Lib.csproj", "{72C86700-2F03-4337-A796-D82017A89FBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoIdDictionary.Test", "AutoIdDictionary.Test\AutoIdDictionary.Test.csproj", "{671CF7EF-B3D1-4E87-A77E-936C04295D14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{72C86700-2F03-4337-A796-D82017A89FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72C86700-2F03-4337-A796-D82017A89FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72C86700-2F03-4337-A796-D82017A89FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{671CF7EF-B3D1-4E87-A77E-936C04295D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671CF7EF-B3D1-4E87-A77E-936C04295D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671CF7EF-B3D1-4E87-A77E-936C04295D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671CF7EF-B3D1-4E87-A77E-936C04295D14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
