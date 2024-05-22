@@ -68,12 +68,13 @@ public class AutoIdDictionary<TKey, TValue> : Dictionary<TKey, TValue> where TKe
 		{
 			_freeIds.Enqueue(id);
 			_ids.Remove(key);
+			return;
 		}
 
 		throw new Exception();
 	}
 
-	public bool TryAdd(TKey key, TValue value)
+	public new bool TryAdd(TKey key, TValue value)
 	{
 		if (base.TryAdd(key, value))
 		{
