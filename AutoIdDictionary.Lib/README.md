@@ -1,6 +1,3 @@
-<p align="center"><img src="Resources/logo.png" alt="drawing" width="100"/></p>
-<h1 align="center">AutoIdDictionary C#</h1>
-
 An extension to the standard dictionary that maps a key to an auto-generated numeric identifier. The identifier receives the first available minimum number value.
 
 ## Table of context
@@ -8,7 +5,6 @@ An extension to the standard dictionary that maps a key to an auto-generated num
 1. [Install](#install)
 2. [Example](#example)
 3. [TODO](#todo)
-4. [Demo](#demo)
  
 ## Install
 
@@ -69,9 +65,3 @@ Console.WriteLine();
 
  - [ ] Add summary
  - [ ] Add docs
-
-## Demo
-
-<center><i>Console test app</i></center>
-
-![Console test app](Resources/ConsoleTest.png)

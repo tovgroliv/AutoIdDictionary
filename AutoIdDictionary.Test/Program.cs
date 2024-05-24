@@ -13,12 +13,13 @@ for (int i = 0; i < 10; i++)
 	dictionary.Add($"id {i}", $"key {i}");
 }
 
+Console.WriteLine("Original");
 foreach (var item in dictionary)
 {
 	Console.WriteLine($"{dictionary.GetId(item.Key)}. {item.Key} - {item.Value}");
 }
-Console.WriteLine();
 
+Console.WriteLine("Remove 5 elements");
 for (int i = 0; i < 5; i++)
 {
 	dictionary.Remove($"id {i}");
@@ -28,8 +29,8 @@ foreach (var item in dictionary)
 {
 	Console.WriteLine($"{dictionary.GetId(item.Key)}. {item.Key} - {item.Value}");
 }
-Console.WriteLine();
 
+Console.WriteLine("Add 10 elements");
 for (int i = 10; i < 20; i++)
 {
 	dictionary.Add($"id {i}", $"key {i}");
@@ -39,4 +40,3 @@ foreach (var item in dictionary)
 {
 	Console.WriteLine($"{dictionary.GetId(item.Key)}. {item.Key} - {item.Value}");
 }
-Console.WriteLine();
